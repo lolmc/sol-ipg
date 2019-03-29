@@ -2,7 +2,8 @@
 
 This file and all others are my own work and are offered with no warranty on there function or safety if used - by any one. If this breaks something, you get to keep both parts. I know it's not a pretty script, YOU know it's not pretty but it works (for me anyway) so feel free to pretty things up if you want.
 
-A script to use a Solarwinds IPAM subnets report exported to an Excel file to create an xml file to import into the Solalrwinds NTA module to allow for more granular Netflow identities in Solarwinds graphs.
+the purpose of this script is to convert a Solarwinds IPAM All Subnets report exported to an Excel file to create an xml file that can be imported into the Solalrwinds NTA module with each IP Subnet listed as a range to allow for more granular Netflow identities in Solarwinds graphs e.g. Top 10 IP Ranges could be Data_Centre Sub1, Guest_Wireless etc. This all makes looking at the dat a bit more nuanced.
+
 In order to make this work you need a few extra modules via pip:
 
   1)Prerequisites - Solarwinds NTA and IPAM modules.
