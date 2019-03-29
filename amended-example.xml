@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddressGroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/IPAddressGroupsSchema.xsd">
+  <AddressGroup enabled="false" description="Class A Private Addresses">
+    <Range from="10.0.0.0" to="10.255.255.255" />
+  </AddressGroup>
+  <AddressGroup enabled="false" description="Class B Private Addresses">
+    <Range from="172.16.0.0" to="172.31.255.255" />
+  </AddressGroup>
+  <AddressGroup enabled="false" description="Class C Private Addresses">
+    <Range from="192.168.0.0" to="192.168.255.255" />
+  </AddressGroup>
+      <AddressGroup enabled="true" description="Random Site A1">
+    <Range from="192.168.4.0" to="192.168.7.255" />
+  </AddressGroup>
+  <AddressGroup enabled="true" description="Random Site A2">
+    <Range from="192.168.140.0" to="192.168.143.255" />
+  </AddressGroup>
+  <AddressGroup enabled="true" description="Random Site A3">
+    <Range from="192.168.204.0" to="192.168.207.255" />
+  </AddressGroup>
+  <AddressGroup enabled="true" description="Random Site A4">
+    <Range from="192.168.208.0" to="192.168.211.255" />
+  </AddressGroup>
+  <AddressGroup enabled="true" description="Random Site A5">
+    <Range from="10.31.100.0" to="10.31.101.255" />
+  </AddressGroup>
+  <AddressGroup enabled="true" description="Random Site A6">
+    <Range from="10.31.102.0" to="10.31.103.255" />
+  </AddressGroup>
+  <AddressGroup enabled="true" description="Random Site A7">
+    <Range from="10.31.104.0" to="10.31.105.255" />
+  </AddressGroup>
+  <AddressGroup enabled="true" description="Random Site A8">
+    <Range from="10.31.106.0" to="10.31.107.255" />
+  </AddressGroup>
+  <AddressGroup enabled="true" description="Random Site A9">
+    <Range from="10.31.116.0" to="10.31.117.255" />
+  </AddressGroup>
+  <AddressGroup enabled="true" description="Random Site A10">
+    <Range from="10.31.132.0" to="10.31.133.255" />
+  </AddressGroup>
+</AddressGroups>
